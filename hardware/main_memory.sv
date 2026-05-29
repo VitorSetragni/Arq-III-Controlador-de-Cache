@@ -46,7 +46,8 @@ module main_memory #(
     function automatic logic [MEM_INDEX_BITS-1:0] get_block_index(
         input logic [ADDR_WIDTH-1:0] addr // Endereço completo recebido da cache
     );
-        get_block_index = addr[OFFSET_BITS +: MEM_INDEX_BITS]; // Pega apenas os bits que identificam o bloco
+        // Bloco de 16 bytes: usa addr[15:4] (inclui parte da tag + index da cache)
+        get_block_index = addr[15:4];
     endfunction
 
     initial begin
