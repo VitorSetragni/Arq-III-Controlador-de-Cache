@@ -2,6 +2,11 @@
 
 Implementação em SystemVerilog de um controlador de cache **mapeado diretamente**, conforme Patterson & Hennessy — *Computer Organization and Design: RISC-V Edition*, **Seção 5.12**.
 
+## Alunos integrantes
+
+Davi Cândido de Almeida
+Vitor Leite Setragni
+
 ## Arquitetura
 
 | Módulo | Pasta | Função |
