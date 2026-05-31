@@ -4,8 +4,8 @@ Implementação em SystemVerilog de um controlador de cache **mapeado diretament
 
 ## Alunos integrantes
 
-Davi Cândido de Almeida
-Vitor Leite Setragni
+- Davi Cândido de Almeida
+- Vitor Leite Setragni
 
 ## Arquitetura
 
