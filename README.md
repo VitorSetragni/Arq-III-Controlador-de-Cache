@@ -36,7 +36,7 @@ sudo apt install iverilog
 ## Compilação e simulação (Linux)
 
 ```bash
-make test        # todos os testes (Seção 7 do trabalho)
+make test        # todos os testes
 make sim_min     # só o teste mínimo
 ```
 
